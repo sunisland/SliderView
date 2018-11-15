@@ -21,21 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let controller = storyboard.instantiateInitialViewController()
         window!.rootViewController = controller
-        window!.makeKeyAndVisible()
-        setupFPS()
+       
         return true
     }
     
-    private func setupFPS() {
-        #if DEBUG
-            DispatchQueue.main.async {
-                let label = FPSLabel(frame: CGRect(x: Int((self.window!.bounds.width) - 55 - 8), y: Int(kStatuseH), width: 55, height: 20))
-                // 横屏幕有用
-                label.autoresizingMask = [.flexibleLeftMargin, .flexibleBottomMargin]
-                self.window!.addSubview(label)
-            }
-        #endif
-    }
+ 
 
 
     func applicationWillResignActive(_ application: UIApplication) {

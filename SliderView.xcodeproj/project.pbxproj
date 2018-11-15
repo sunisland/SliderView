@@ -15,6 +15,7 @@
 		112FEAFA1FB6FD1E00FA584E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112FEAF91FB6FD1E00FA584E /* Assets.xcassets */; };
 		112FEAFD1FB6FD1E00FA584E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112FEAFB1FB6FD1E00FA584E /* LaunchScreen.storyboard */; };
 		112FEB071FB6FD5E00FA584E /* CommonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112FEB061FB6FD5E00FA584E /* CommonValue.swift */; };
+		42448C5D219DD68800880258 /* SliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42448C5C219DD68800880258 /* SliderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		112FEAFC1FB6FD1E00FA584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112FEAFE1FB6FD1E00FA584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112FEB061FB6FD5E00FA584E /* CommonValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonValue.swift; sourceTree = "<group>"; };
+		42448C5C219DD68800880258 /* SliderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				112FEAF41FB6FD1E00FA584E /* ViewController.swift */,
 				112FEAF61FB6FD1E00FA584E /* Main.storyboard */,
 				112BCFBE1FCF9FCC004FAA0F /* SliderView.swift */,
+				42448C5C219DD68800880258 /* SliderModel.swift */,
 				112FEAF91FB6FD1E00FA584E /* Assets.xcassets */,
 				112FEAFB1FB6FD1E00FA584E /* LaunchScreen.storyboard */,
 				112FEAFE1FB6FD1E00FA584E /* Info.plist */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42448C5D219DD68800880258 /* SliderModel.swift in Sources */,
 				112BCFC21FCFA7E5004FAA0F /* FPSLabel.swift in Sources */,
 				112FEAF51FB6FD1E00FA584E /* ViewController.swift in Sources */,
 				112FEB071FB6FD5E00FA584E /* CommonValue.swift in Sources */,
